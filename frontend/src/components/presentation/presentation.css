@@ -1,0 +1,44 @@
+.contentPresent{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+.presentation{
+    margin-top: -80px;
+}
+.skills{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 5% 0 0 5%;
+}
+h2{
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 2.5em;
+}
+.textPresentation{
+    color: #c8c6c6;
+    font-size: 2em;
+    margin-bottom: 0;
+}
+.textSkills{
+    color: #c8c6c6;
+    font-size: 1.5em;
+    margin: 0;
+    height: fit-content;
+}
+span{
+    color: #207DFF;
+}
+.photo{
+    width: 34%;
+    padding-top: 15vh;
+}
+.profil{
+    width: 70%;
+    border-radius: 50%;
+}

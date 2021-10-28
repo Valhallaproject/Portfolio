@@ -1,0 +1,41 @@
+
+.header{
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+}
+.logoH{
+    line-height: 120px;
+    margin-left: 50px;
+}
+.logoHeader{
+    width: 20%;
+}
+.positionned{
+    position: sticky;
+    top: 0;
+
+}
+.itemHeader{
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    list-style: none;
+}
+.itemHeader li {
+    width: 33%;
+    
+}
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    color: #c8C6c6;
+}
+

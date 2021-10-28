@@ -1,0 +1,13 @@
+.headerSite{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+}
+.liHeader{
+    line-height: 120px;
+    height: 80px;
+    margin-left: 20px;
+}

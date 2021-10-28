@@ -1,0 +1,50 @@
+#contenu{
+    display: flex;
+    flex-direction: column;
+}
+.titleSite{
+    color: black;
+    text-align: center;
+    margin: 50px 0 50px 0;
+    font-size: 2em;
+}
+.textSite{
+    padding-top: 50px;
+    width: 70%;
+    margin: 0 auto;
+}
+.pSite{
+    color: black;
+    font-size: 1.4em;
+}
+.skillsSite{
+    color: black;
+    margin: 0 0 0 50px;
+    font-size: 1.4em;
+
+}
+.button{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.link{
+    background-color: #fff;
+    margin: 0 10px 0 10px;
+    width: 100px;
+    height: 40px;
+    border: solid 3px black;
+}
+.linkSite{
+    color: #207DFF  
+}
+.otherSite{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.siteImg{
+    width: 10%;
+    height: 20%;
+}

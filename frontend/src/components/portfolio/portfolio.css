@@ -1,0 +1,61 @@
+.portfolio{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../images/bgportfolio.jpeg");
+    background-position: center;
+    background-size: cover;
+    margin-top: -80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+  
+.itemsPortfolio{
+    padding: 25vh 15vw 25vh 15vw;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.itemPortfolio{
+    color: #fff;
+    text-decoration: none;
+    font-size: 3.5em;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+}
+.itemPortfolio:hover{
+    color: #fff
+    
+}
+.itemPortfolio:hover  .itemOpacity{
+    opacity: 0.8;
+    color: #207DFF;
+}
+.arrow{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    bottom: 5vh;
+}
+.arrowUp{
+    transform: rotate(90deg);
+}
+
+
+
+
+
+/*.carouselImage{
+    width: 50%;
+    object-fit: contain;
+}
+.carouselImg{
+    width: 80%;
+    height: 40vh;
+}
+.carouselContent{
+    width: 50%;
+}*/
+

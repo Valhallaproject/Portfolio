@@ -1,0 +1,23 @@
+.contact{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+.iconContact{
+    width: 70px;
+    height: 70px;
+    list-style: none;
+    object-fit: contain;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.iconContactImg{
+    width: 60px;
+    height: 60px;
+    padding-top: 5px;
+}
+.iconContactImg1{
+    width: 70px;
+    height: 70px;
+}
