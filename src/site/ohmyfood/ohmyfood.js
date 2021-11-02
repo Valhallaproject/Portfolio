@@ -2,7 +2,6 @@ import React from 'react';
 import Header from "../../components/header/headerSite";
 import Footer from '../../components/footer/footer';
 import Carousel from 'react-bootstrap/Carousel'
-//import Carousel, {CarouselItem} from "../carousel/carousel";
 import "../styleSite/styleSite.css"
 import Omf from "./ohmyfood/ohmyfood.png"
 import Img1 from "./ohmyfood/image1.png"

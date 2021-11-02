@@ -3,7 +3,6 @@ import Header from "../../components/header/headerSite";
 import Footer from '../../components/footer/footer';
 import Carousel from 'react-bootstrap/Carousel'
 import 'bootstrap/dist/css/bootstrap.css';
-//import Carousel, {CarouselItem} from "../carousel/carousel";
 import "../styleSite/styleSite.css"
 import Grp from "./groupomania/groupomania.png"
 import Img1 from "./groupomania/image1.png"
