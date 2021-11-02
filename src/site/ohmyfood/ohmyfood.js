@@ -59,12 +59,9 @@ function ohmyfood(){
                 <p className="pSite">
                     Technologies utilisées : </p>
                     <p className="skillsSite">- Intégration de la maquette avec <span> HTML / SASS</span></p>
-                    
-                
                 <div className="button">
                     <button className="link"><a className="linkSite" href="https://github.com/Valhallaproject/NicolasBictel_3_06052021" target="blank">Githuh</a></button>
                     <button className="link"><a className="linkSite" href="https://valhallaproject.github.io/NicolasBictel_3_06052021/" target="blank">Site</a></button>
-
                 </div>
             </div>
             <Footer/>
