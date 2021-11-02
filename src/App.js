@@ -7,6 +7,7 @@ import Nbphoto from './site/nbphoto/nbphoto';
 import Orinoco from './site/orinoco/orinoco';
 import Ohmyfood from './site/ohmyfood/ohmyfood';
 import Room from './site/room/room';
+import Contact from './components/mail/mail'
 function App() {
   return (
     
@@ -19,6 +20,7 @@ function App() {
           <Route path="/orinoco" component={Orinoco}/>
           <Route path="/ohmyfood" component={Ohmyfood}/>
           <Route path="/room" component={Room}/>
+          <Route path="/contact" component={Contact}/>
         </Switch>
       </Router>
     

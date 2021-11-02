@@ -1,0 +1,31 @@
+.contenu{
+    min-height: 95vh;
+    text-align: center;
+    padding-top: 80px;
+    background-color: #f7f6f2;
+}
+.h1Mail{
+    color: black;
+    margin-bottom: 100px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+.send{
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+
+@media screen and (max-width:768px) {
+    form{
+        width: 70%;
+    }
+    .h1Mail{
+        margin-bottom: 50px;
+    }
+}
