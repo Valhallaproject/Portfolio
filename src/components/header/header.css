@@ -31,7 +31,7 @@
     color: white !important;
 }
 .me-auto.navbar-nav{
-    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;;
+    background-color: black !important;
     width: 100% !important;
     text-align: center;
 }
