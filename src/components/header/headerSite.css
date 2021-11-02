@@ -7,7 +7,14 @@
     background-color: #000;
 }
 .liHeader{
-    line-height: 120px;
+    line-height: 80px;
     height: 80px;
     margin-left: 20px;
+}
+.logoHSite{
+    line-height: 80px;
+    text-align: center;
+}
+.logoHeaderSite{
+    width: 23%;
 }

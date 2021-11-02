@@ -1,12 +1,14 @@
 import React from 'react';
 import Header from "../../components/header/headerSite";
 import Footer from '../../components/footer/footer';
-import Separation from '../../components/separations/separation';
-import Carousel, {CarouselItem} from "../carousel/carousel";
-import LogoGroupomania from "../../images/logogroupomania.png";
-import LogoOhmyfood from "../../images/logoohmyfood.png";
-import LogoOrinoco from "../../images/logoorinoco.JPG";
+import Carousel from 'react-bootstrap/Carousel'
+import 'bootstrap/dist/css/bootstrap.css';
+//import Carousel, {CarouselItem} from "../carousel/carousel";
 import "../styleSite/styleSite.css"
+import Grp from "./groupomania/groupomania.png"
+import Img1 from "./groupomania/image1.png"
+import Img2 from "./groupomania/image2.png"
+import Img3 from "./groupomania/image3.png"
 
 function groupomania(){
     return(
@@ -14,9 +16,34 @@ function groupomania(){
             <Header/>
             <h1 className="titleSite">Groupomania</h1>
             <Carousel>
-                <CarouselItem>Item 1</CarouselItem>
-                <CarouselItem>Item 2</CarouselItem>
-                <CarouselItem>Item 3</CarouselItem>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src={Grp}
+                        alt="First slide"
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src={Img1}
+                        alt="Second slide"
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src={Img2}
+                        alt="Third slide"
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src={Img3}
+                        alt="Second slide"
+                    />
+                </Carousel.Item>
             </Carousel>
             <div className="textSite" id="textSite">
                 <p className="pSite">
@@ -30,18 +57,14 @@ function groupomania(){
                     <p className="skillsSite">- Réalisation de la base de données avec <span>MySql</span></p>
                 
                 <div className="button">
-                    <button className="link"><a className="linkSite" href="https://github.com/Valhallaproject/NicolasBictel_6_06072021" target="blank">Githuh</a></button>
+                    <button className="link"><a className="linkSite" href="https://github.com/Valhallaproject/NicolasBictel_7_02082021" target="blank">Githuh</a></button>
                 </div>
-            </div>
-            <Separation/>
-            <Separation/>
-            <div className="otherSite">
-                <img className="siteImg" src={LogoGroupomania} alt=""/>
-                <img className="siteImg" src={LogoOhmyfood} alt=""/>
-                <img className="siteImg" src={LogoOrinoco} alt=""/>
             </div>
             <Footer/>
         </div>
     )
 };
 export default groupomania
+
+
+           

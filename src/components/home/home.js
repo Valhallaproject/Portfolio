@@ -15,7 +15,7 @@ function home () {
                     <Line/>
                     <Line/>
                 </div>
-                <img src={Logo} alt="Logo" className="logo"/>
+                <img src={Logo} alt="Logo" className="logoHome"/>
                 <h1>FULL STACK DEVELOPER</h1>
                 <div className="lastLine">
                     <Line/>

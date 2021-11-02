@@ -1,41 +1,44 @@
 
-.header{
-    position: absolute;
-    width: 100%;
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
-    background-color: #000;
+.bg-dark{
+    background-color: black !important;
 }
-.logoH{
-    line-height: 120px;
-    margin-left: 50px;
-}
-.logoHeader{
-    width: 20%;
-}
-.positionned{
-    position: sticky;
+.navbar{
+    height: 80px ;
+    background-color: black !important;
+    position: sticky !important;
     top: 0;
+    width: 100% !important;
+    color: white !important;
+}
+.navbar-brand{
+    width:75%;
+}
+.logo{
+    width: 6%;
+    margin-left: 10px;
+}
+.navbar > .container{
+    padding: 0;
+}
+.nav-link{
+    color: white !important;
+    font-size: 1.2em !important;
+}
+.navbar-collapse{
+    padding: 0;
+}
+.navbar-toggler-collapsed{
+    color: white !important;
+}
+.me-auto.navbar-nav{
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;;
+    width: 100% !important;
+    text-align: center;
+}
 
+@media  (max-width : 990px){
+    .navbar{
+        position: fixed !important;
+        top: 0;
+    }
 }
-.itemHeader{
-    line-height: 80px;
-    display: flex;
-    justify-content: space-between;
-    width: 40%;
-    list-style: none;
-}
-.itemHeader li {
-    width: 33%;
-    
-}
-a{
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #fff;
-}
-a:hover{
-    color: #c8C6c6;
-}
-

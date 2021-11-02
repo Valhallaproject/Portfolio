@@ -1,12 +1,14 @@
 import React from 'react';
 import Header from "../../components/header/headerSite";
 import Footer from '../../components/footer/footer';
-import Separation from '../../components/separations/separation';
-import Carousel, {CarouselItem} from "../carousel/carousel";
-import LogoGroupomania from "../../images/logogroupomania.png";
-import LogoOhmyfood from "../../images/logoohmyfood.png";
-import LogoOrinoco from "../../images/logoorinoco.JPG";
+import Carousel from 'react-bootstrap/Carousel'
+//import Carousel, {CarouselItem} from "../carousel/carousel";
 import "../styleSite/styleSite.css"
+import Ornc from "./orinoco/orinoco.png"
+import Img1 from "./orinoco/image1.png"
+import Img2 from "./orinoco/image2.png"
+import Img3 from "./orinoco/image3.png"
+import Img4 from "./orinoco/image4.png"
 
 function orinoco(){
     return(
@@ -14,9 +16,41 @@ function orinoco(){
             <Header/>
             <h1 className="titleSite">Orinoco</h1>
             <Carousel>
-                <CarouselItem>Item 1</CarouselItem>
-                <CarouselItem>Item 2</CarouselItem>
-                <CarouselItem>Item 3</CarouselItem>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src={Ornc}
+                        alt="First slide"
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src={Img1}
+                        alt="Second slide"
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src={Img2}
+                        alt="Third slide"
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src={Img3}
+                        alt="Second slide"
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src={Img4}
+                        alt="Second slide"
+                    />
+                </Carousel.Item>
             </Carousel>
             <div className="textSite" id="textSite">
                 <p className="pSite">
@@ -28,15 +62,8 @@ function orinoco(){
                     <p className="skillsSite">- Interaction avec le backend en <span> JavaScript</span></p>
                 
                 <div className="button">
-                    <button className="link"><a className="linkSite" href="https://github.com/Valhallaproject/NicolasBictel_6_06072021" target="blank">Githuh</a></button>
+                    <button className="link"><a className="linkSite" href="https://github.com/Valhallaproject/NicolasBictel_5_26052021" target="blank">Githuh</a></button>
                 </div>
-            </div>
-            <Separation/>
-            <Separation/>
-            <div className="otherSite">
-                <img className="siteImg" src={LogoGroupomania} alt=""/>
-                <img className="siteImg" src={LogoOhmyfood} alt=""/>
-                <img className="siteImg" src={LogoOrinoco} alt=""/>
             </div>
             <Footer/>
         </div>

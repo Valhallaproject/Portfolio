@@ -43,19 +43,32 @@
     transform: rotate(90deg);
 }
 
-
-
-
-
-/*.carouselImage{
-    width: 50%;
-    object-fit: contain;
+/******Media queries******/
+@media (max-width: 500px){
+    .arrow{
+        bottom: 15vh;
+    }
 }
-.carouselImg{
-    width: 80%;
-    height: 40vh;
+@media (max-width: 699px){
+    .itemPortfolio{
+        font-size: 2em;
+    }
 }
-.carouselContent{
-    width: 50%;
-}*/
+@media (min-width: 768px){
+    .arrow{
+        bottom: 10vh;
+    }
+}
+@media (min-width: 1440px){
+    .itemPortfolio{
+        font-size: 4.5em;
+    }
+}
+
+
+
+
+
+
+
 

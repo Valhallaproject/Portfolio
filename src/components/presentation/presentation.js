@@ -14,9 +14,9 @@ function presentation(){
                     <h2>Développeur Full Stack Freelance</h2>
                     <p className="textPresentation">Je vous accompagne dans la réalisation de vos projets web</p>
                     <p className="textSkills">De façon plus précise :</p>
-                    <p className="textSkills"> - Concevoir, manipuler et interroger des bases de données <span>MySql MongoDb</span><br/>
-                                               - Concevoir le back-end et les API  <span>NodeJS Express</span><br/>
-                                               - Concevoir le front-end et optimiser les assets <span>React.js HTML/CSS SASS JS</span></p>
+                    <p className="textSkills"> - Concevoir, manipuler et interroger des bases de données <span>MySql MongoDb</span></p>
+                    <p className="textSkills"> - Concevoir le back-end et les API  <span>NodeJS Express</span></p>
+                    <p className="textSkills"> - Concevoir le front-end et optimiser les assets <span>React.js HTML/CSS SASS JS</span></p>
                 </div>
                 <div className="photo">
                     <img src={Profil} className="profil" alt=""/>

@@ -1,6 +1,7 @@
 #contenu{
     display: flex;
     flex-direction: column;
+    background-color: #F7F6F2 !important;
 }
 .titleSite{
     color: black;
@@ -38,13 +39,37 @@
 .linkSite{
     color: #207DFF  
 }
-.otherSite{
-    margin-top: 50px;
-    margin-bottom: 100px;
-    display: flex;
-    justify-content: space-around;
+.carousel{
+    width: 70%;
+    height: 450px;
+    margin: 0 auto;
+    overflow: hidden;
 }
-.siteImg{
-    width: 10%;
-    height: 20%;
+.w-100{
+    height: 450px;
+}
+@media screen and (max-width: 550px){
+    .carousel{
+        height: 300px;
+    }
+    .w-100{
+        height: 300px;
+    }
+}
+@media screen and (max-width: 768px){
+    .pSite{
+        line-height: 40px;
+    }
+    .skillsSite{
+        line-height: 40px;
+    }
+}
+@media (min-width: 1300px){
+    .carousel{
+        width: 50%;
+        height: 600px;
+    }
+    .w-100{
+        height: 600px;
+    }
 }
