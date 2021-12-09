@@ -5,6 +5,7 @@ import Groupo from "../../images/groupomania.png";
 import Piquante from "../../images/piquante.png";
 import Room from "../../images/room.png";
 import OMF from "../../images/ohmyfood.png";
+import ST from "../../images/spatial.png"
 import NB from "../../images/NBP.JPG";
 import BGP from "../../images/bgportfolio.jpeg";
 import ArrowUp from "../../images/backArrow.png";
@@ -35,6 +36,7 @@ function Portfolio(){
                     <a href="/groupomania" className="itemPortfolio" onMouseOver={handleOver} onMouseOut={handleOut} value={Groupo} >Groupomania</a>
                     <a href="/thehotreviews" className="itemPortfolio" onMouseOver={handleOver} onMouseOut={handleOut} value={Piquante}>The Hotreviews</a>
                     <a href="/orinoco" className="itemPortfolio" onMouseOver={handleOver} onMouseOut={handleOut} value={Orinoco}>Orinoco</a>
+                    <a href="spatial" className="itemPortfolio" onMouseOver={handleOver} onMouseOut={handleOut} value={ST}>Spatial</a>
                     <a href="nbphotographie" className="itemPortfolio" onMouseOver={handleOver} onMouseOut={handleOut} value={NB}>NB Photographie</a>
                     <a href="ohmyfood" className="itemPortfolio" onMouseOver={handleOver} onMouseOut={handleOut} value={OMF}>ohmyfood</a>
                     <a href="room" className="itemPortfolio" onMouseOver={handleOver} onMouseOut={handleOut} value={Room}>Room</a>

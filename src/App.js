@@ -4,6 +4,7 @@ import Home from "./components/home/home";
 import Groupomania from "./site/groupomania/groupomania";
 import Hotreviews from './site/hotreviews/hotreviews';
 import Nbphoto from './site/nbphoto/nbphoto';
+import Spatial from './site/spatial/spatial';
 import Orinoco from './site/orinoco/orinoco';
 import Ohmyfood from './site/ohmyfood/ohmyfood';
 import Room from './site/room/room';
@@ -17,6 +18,7 @@ function App() {
           <Route path="/groupomania" component={Groupomania}/>
           <Route path="/thehotreviews" component={Hotreviews}/>
           <Route path="/nbphotographie" component={Nbphoto}/>
+          <Route path="/spatial" component={Spatial}/>
           <Route path="/orinoco" component={Orinoco}/>
           <Route path="/ohmyfood" component={Ohmyfood}/>
           <Route path="/room" component={Room}/>
