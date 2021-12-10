@@ -9,7 +9,7 @@ import Img1 from "./spatial/Img1.png"
 import Img2 from "./spatial/Img2.png"
 import Img3 from "./spatial/Img3.png"
 
-function groupomania(){
+function spatial(){
     return(
         <div id="contenu">
             <Header/>
@@ -60,4 +60,4 @@ function groupomania(){
         </div>
     )
 };
-export default groupomania
+export default spatial
