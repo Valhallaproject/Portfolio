@@ -19,7 +19,7 @@ function Portfolio(){
         setBackground(e.target.getAttribute("value"));
         list=document.getElementsByClassName('itemPortfolio')
         for (index = 0; index < list.length; ++index) {
-            list[index].setAttribute('style', 'opacity: 0.7');
+            list[index].setAttribute('style', 'opacity: 0.7', 'transition: 3s');
         }
     }
     const handleOut = () => {
